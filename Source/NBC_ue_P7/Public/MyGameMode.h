@@ -12,4 +12,6 @@ class NBC_UE_P7_API AMyGameMode : public AGameMode
 	
 public:
 	AMyGameMode();
+	UFUNCTION(BlueprintCallable)
+	void SwitchPlayerPawn(TSubclassOf<APawn> NewPawnClass);
 };
